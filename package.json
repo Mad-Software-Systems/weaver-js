@@ -1,0 +1,36 @@
+{
+  "name": "weaver-js",
+  "version": "1.0.0",
+  "description": "Weave your application's dependencies together with elegance. A lightweight TypeScript/Node.js DI container offering dual APIs: functional definitions or decorator-based injection.",
+  "keywords": [
+    "di",
+    "dependency",
+    "injection"
+  ],
+  "homepage": "https://github.com/Mad-Software-Systems/weaver-js#readme",
+  "bugs": {
+    "url": "https://github.com/Mad-Software-Systems/weaver-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mad-Software-Systems/weaver-js.git"
+  },
+  "license": "MIT",
+  "author": "Markus Möller",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "@types/node": "^25.0.2",
+    "@vitest/coverage-v8": "^4.0.15",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "semantic-release": "^25.0.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  }
+}
